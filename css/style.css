@@ -93,10 +93,22 @@ main {
 }
 
 #homepage-article {
-    height: 90%;
+    background-color: rgba(47, 54, 64, .8);
     text-align: center;
     align-content: center;
+    margin: 0 1rem;
     padding: 1rem;
+}
+
+#homepage-article h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#homepage-article p {
+    font-weight: 600;
+    margin: 1rem auto;
 }
 
 #logo {
