@@ -42,11 +42,45 @@
         </article>
 
         <!-- PAGE - CV -->
-        <article id="cv-article" class="hidden">
-            <!-- <img src="assets/img/logo.jpg" alt="photo de nicolas van hoove" id="logo"> -->
+        <section id="section-cv" class="hidden">
             <h1>cv</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis quidem accusamus rem voluptatibus odio quod vero alias, inventore fuga eos ex ratione odit earum eveniet pariatur dignissimos natus. Sit voluptate assumenda rem ratione reiciendis autem? Animi quae laudantium voluptatum quasi enim quibusdam reiciendis officia, pariatur qui repellat soluta earum!</p>
-        </article>
+            <div id="cv-navbar">
+                <ul id="cv-navlinks">
+                    <li class="cv-navlink" id="competence-link">
+                        <a href="#">Compétences</a>
+                    </li>
+                    <li class="cv-navlink">
+                        <a href="#">Formation</a>
+                    </li>
+                    <li class="cv-navlink">
+                        <a href="#">Expériences</a>
+                    </li>
+                </ul>
+            </div> 
+        </section>
+        <!-- SECTION COMPETENCES -->
+        <section id="section-competence" class="hidden">
+            <h1>compétences</h1>
+            <div id="hardSkills">
+                <h2>hard skills</h2>
+                <ul>
+                    <li class="hardskill">Concevoir et déployer un site web responsive</li>
+                    <li class="hardskill">Programation Orientée Objet</li>
+                    <li class="hardskill">Architecture Model View Controller</li>
+                    <li class="hardskill">Gestion de BDD relationnelles</li>
+                </ul>
+            </div>
+            <div id="technologies" class="hidden">
+                <h2>technos maîtrisées</h2>
+                <ul>
+                    <li class="techno"> Langages : HTML/CSS/PHP/JS</li>
+                    <li class="techno">Framework : Symfony</li>
+                    <li class="techno">SGBD : MariaDB (Adminer)</li>
+                    <li class="techno">CMS : Wordpress</li>
+                    <li class="techno">Environnement : Linux (Ubuntu) / Windows</li>
+                </ul>
+            </div>  
+        </section>
 
         <!-- PAGE - PORTFOLIO -->
         <article id="portfolio-article" class="hidden">
@@ -76,5 +110,6 @@
     </footer>
 <script src="js/menu-burger.js"></script>
 <script src="js/switch-page.js"></script>
+<script src="js/switch-section-cv.js"></script>
 </body>
 </html>

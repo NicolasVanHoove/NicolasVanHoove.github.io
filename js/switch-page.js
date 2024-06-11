@@ -1,8 +1,8 @@
-// Page selection
+// Section selection
 const homePage = document.getElementById('homepage-article');
 console.log(homePage);
-const cvPage = document.getElementById('cv-article');
-console.log(cvPage);
+const sectionCV = document.getElementById('section-cv');
+console.log(sectionCV);
 const portfolioPage = document.getElementById('portfolio-article');
 
 // Link selection
@@ -22,18 +22,21 @@ portfolioLink.onclick = displayPortfolio;
 // Function
 function displayHomepage() {
     homePage.classList.remove('hidden');
-    cvPage.classList.add('hidden');
+    sectionCV.classList.add('hidden');
     portfolioPage.classList.add('hidden');
+    sectionCompetence.classList.add('hidden');
 }
 
 function displayCv() {
-    cvPage.classList.remove('hidden');
+    sectionCV.classList.remove('hidden');
     homePage.classList.add('hidden');
     portfolioPage.classList.add('hidden');
+    sectionCompetence.classList.add('hidden');
 }
 
 function displayPortfolio() {
     portfolioPage.classList.remove('hidden');
-    cvPage.classList.add('hidden');
+    sectionCV.classList.add('hidden');
     homePage.classList.add('hidden');
+    sectionCompetence.classList.add('hidden');
 }
