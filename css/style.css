@@ -83,7 +83,7 @@ header {
 }
 
 /****************/
-/***  main  ***/
+/***   main   ***/
 /****************/
 
 main {
@@ -91,6 +91,10 @@ main {
     background-color: rgba(47, 54, 64, .3);
     align-content: center;
 }
+
+/****************/
+/*** homepage ***/
+/****************/
 
 #homepage-article {
     background-color: rgba(47, 54, 64, .8);
@@ -124,6 +128,74 @@ main {
 }
 
 #homepage-article p{
+    width: 90%;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+
+/****************/
+/****   CV   ****/
+/****************/
+
+#cv-article {
+    background-color: rgba(47, 54, 64, .8);
+    text-align: center;
+    align-content: center;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+#cv-article h1 {
+    width: fit-content;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid white;
+}
+
+#cv-article p {
+    font-weight: 600;
+    margin: 1rem auto;
+}
+
+#cv-article p{
+    width: 90%;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+
+/*****************/
+/*** PORTFOLIO ***/
+/*****************/
+
+#portfolio-article {
+    background-color: rgba(47, 54, 64, .8);
+    text-align: center;
+    align-content: center;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+#portfolio-article h1 {
+    width: fit-content;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid white;
+}
+
+#portfolio-article p {
+    font-weight: 600;
+    margin: 1rem auto;
+}
+
+#portfolio-article p{
     width: 90%;
     font-weight: 500;
     line-height: 1.5rem;

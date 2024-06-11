@@ -1,13 +1,15 @@
-// HIDDEN MENU SELECTION
+// DISPLAY/MUTE NAVBAR 
+
+// Navbar selection
 const hiddenMenu = document.getElementById('navbar');
 
-// BURGER BUTTON SELECTION
+// Burger button selection
 const burgerButton = document.getElementById('burger-button');
 
-// ON CLICK => CALL OPEN/CLOSE FUNCTION
+// On click => call openCloseNav function
 burgerButton.onclick = openCloseNav;
 
-// OPEN/CLOSE FUNCTION
+// Open/close function
 function openCloseNav() {
     navbar.classList.toggle("hidden");
 }
