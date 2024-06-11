@@ -101,9 +101,13 @@ main {
 }
 
 #homepage-article h1 {
+    width: fit-content;
     font-size: 1.8rem;
     font-weight: 800;
     text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid white;
 }
 
 #homepage-article p {
