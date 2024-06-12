@@ -336,15 +336,14 @@ main {
 /*** PORTFOLIO ***/
 /*****************/
 
-#portfolio-article {
-    background-color: rgba(47, 54, 64, .8);
+#section-portfolio {
     text-align: center;
     align-content: center;
     margin: 0 1rem;
     padding: 1rem;
 }
 
-#portfolio-article h1 {
+#section-portfolio h1 {
     width: fit-content;
     font-size: 1.8rem;
     font-weight: 800;
@@ -354,12 +353,15 @@ main {
     border-bottom: 3px solid white;
 }
 
-#portfolio-article p {
-    width: 90%;
-    font-weight: 600;
-    line-height: 1.5rem;
-    letter-spacing: 2px;
-    margin: 1rem auto;
+.projet {
+    background-color: rgba(47, 54, 64, .8);
+    padding: 1rem;
+    margin-top: 1rem; 
+}
+
+#section-portfolio img {
+    width: 300px;
+    height: 250px;   
 }
 
 /****************/

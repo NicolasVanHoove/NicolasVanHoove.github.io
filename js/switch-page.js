@@ -3,7 +3,7 @@ const homePage = document.getElementById('homepage-article');
 console.log(homePage);
 const sectionCV = document.getElementById('section-cv');
 console.log(sectionCV);
-const portfolioPage = document.getElementById('portfolio-article');
+const sectionPortfolio = document.getElementById('section-portfolio');
 
 // Link selection
 const homeLink = document.getElementById('homepage-link');
@@ -23,7 +23,7 @@ portfolioLink.onclick = displayPortfolio;
 function displayHomepage() {
     homePage.classList.remove('hidden');
     sectionCV.classList.add('hidden');
-    portfolioPage.classList.add('hidden');
+    sectionPortfolio.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
     sectionFormation.classList.add('hidden');
     sectionExperience.classList.add('hidden');
@@ -32,14 +32,14 @@ function displayHomepage() {
 function displayCv() {
     sectionCV.classList.remove('hidden');
     homePage.classList.add('hidden');
-    portfolioPage.classList.add('hidden');
+    sectionPortfolio.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
     sectionFormation.classList.add('hidden');
     sectionExperience.classList.add('hidden');
 }
 
 function displayPortfolio() {
-    portfolioPage.classList.remove('hidden');
+    sectionPortfolio.classList.remove('hidden');
     sectionCV.classList.add('hidden');
     homePage.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
