@@ -275,6 +275,62 @@ main {
     border-bottom: 1px solid goldenrod;
 }
 
+/* Section Experience */
+
+#section-experience {
+    margin: 1rem;
+}
+
+#section-experience h1 {
+    width: fit-content;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid white;
+}
+
+.experience {
+    background-color: rgba(47, 54, 64, .8);
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+.experience h3 {
+    color: goldenrod;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.experience > span {
+    display: block;
+    margin-bottom: .5rem;
+    padding: 1rem 0;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.technical-data p > span {
+    color: goldenrod;
+}
+
+.experience p {
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.experience > #github-link {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 2px solid white;
+}
+
+.experience p > a {
+    width: fit-content;
+    color: goldenrod;
+    text-decoration: none;
+    border-bottom: 1px solid goldenrod;
+}
 
 /*****************/
 /*** PORTFOLIO ***/

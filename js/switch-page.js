@@ -26,6 +26,7 @@ function displayHomepage() {
     portfolioPage.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
     sectionFormation.classList.add('hidden');
+    sectionExperience.classList.add('hidden');
 }
 
 function displayCv() {
@@ -34,6 +35,7 @@ function displayCv() {
     portfolioPage.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
     sectionFormation.classList.add('hidden');
+    sectionExperience.classList.add('hidden');
 }
 
 function displayPortfolio() {
@@ -41,4 +43,6 @@ function displayPortfolio() {
     sectionCV.classList.add('hidden');
     homePage.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
+    sectionFormation.classList.add('hidden');
+    sectionExperience.classList.add('hidden');
 }
