@@ -33,6 +33,7 @@ function displayCv() {
     homePage.classList.add('hidden');
     portfolioPage.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
+    sectionFormation.classList.add('hidden');
 }
 
 function displayPortfolio() {
