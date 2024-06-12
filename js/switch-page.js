@@ -25,6 +25,7 @@ function displayHomepage() {
     sectionCV.classList.add('hidden');
     portfolioPage.classList.add('hidden');
     sectionCompetence.classList.add('hidden');
+    sectionFormation.classList.add('hidden');
 }
 
 function displayCv() {
