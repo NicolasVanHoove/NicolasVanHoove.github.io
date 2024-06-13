@@ -13,7 +13,8 @@
     <!-- CSS LINKS  -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>NVH - Dev Web</title>
+    <!-- TITLE  -->
+    <title>Nicolas VH - Developpeur Web</title>
 </head>
 <body>
     <header>
@@ -35,24 +36,26 @@
     <main>
 
         <!-- HOMEPAGE -->
-        <article id="homepage-article">
+
+        <section id="home-page">
+            <h2>développeur web</h2>
+            <div class="card">
             <!-- <img src="assets/img/logo.jpg" alt="photo de nicolas van hoove" id="logo"> -->
-            <h1>développeur web</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis quidem accusamus rem voluptatibus odio quod vero alias, inventore fuga eos ex ratione odit earum eveniet pariatur dignissimos natus. Sit voluptate assumenda rem ratione reiciendis autem? Animi quae laudantium voluptatum quasi enim quibusdam reiciendis officia, pariatur qui repellat soluta earum!</p>
-        </article>
+            </div>
+        </section>
 
-        <!-- PAGE - CV -->
+        <!-- CV - HOMEPAGE -->
 
-        <!-- SECTION HOME -->
-        <section id="section-cv" class="hidden">
-            <h1>cv</h1>
-            <div id="cv-navbar">
+        <section id="cv-homepage" class="hidden">
+            <h2>mon cv</h2>
+            <div class="card" id="cv-navbar">
                 <ul id="cv-navlinks">
                     <li class="cv-navlink" id="competence-link">
                         <a href="#">Compétences</a>
                     </li>
                     <li class="cv-navlink" id="formation-link">
-                        <a href="#">Formation</a>
+                        <a href="#">Formations</a>
                     </li>
                     <li class="cv-navlink" id="experience-link">
                         <a href="#">Expériences</a>
@@ -61,11 +64,12 @@
             </div> 
         </section>
 
-        <!-- SECTION COMPETENCES -->
-        <section id="section-competence" class="hidden">
-            <h1>compétences</h1>
-            <div id="hardSkills">
-                <h2>hard skills</h2>
+        <!-- CV - COMEPTENCE - PAGE -->
+
+        <section id="cv-competence-page" class="hidden">
+            <h2>compétences</h2>
+            <div class="card" id="hardskills">
+                <h3>hard skills</h3>
                 <ul>
                     <li class="hardskill">Concevoir et déployer un site web responsive</li>
                     <li class="hardskill">Concevoir et utiliser une API</li>
@@ -74,8 +78,8 @@
                     <li class="hardskill">Création et gestion de BDD relationnelles</li>
                 </ul>
             </div>
-            <div id="technologies">
-                <h2>technos maîtrisées</h2>
+            <div class="card" id="technologie">
+                <h3>technologies maîtrisées</h3>
                 <ul>
                     <li class="techno"><strong>Langages</strong> : HTML / CSS / PHP / JS</li>
                     <li class="techno"><strong>Framework</strong> : Symfony</li>
@@ -90,79 +94,90 @@
             </div>  
         </section>
 
-        <!-- SECTION FORMATION -->
-        <section id="section-formation" class="hidden">
-            <h1>Formations</h1>
-            <div class="formation">
-                <h3>Concepteur Développeur d'Applications - TP niveau VI</h3>
-                <span>Ecole Simplon - Début le 16 Septembre 2024</span>
+        <!-- CV - FORMATION - PAGE -->
+        <section id="cv-formation-page" class="hidden">
+            <h2>formations</h2>
+            <div class="card" class="formation">
+                <h3>Concepteur Développeur d'Applications </h3>
+                <div class="formation-data">
+                    <span>Ecole Simplon - Titre Pro de niveau VI</span>
+                    <span>Débute le 16 Septembre 2024</span>
+                </div>
                 <p>Formation de 16 mois en alternance, 1 semaine à l'école et 3 semaines en entreprise. Ayant intégré l'école Simplon Nouvelle-Aquitaine je suis actuellement à la recherche d'une entreprise</p>
-                <p id="linkedin-link">
+                <p class="social-link">
                 Retrouvez la description complète de la formation sur la page de mon profil 
                     <a href="http://www.linkedin.com/in/nicolas-van-hoove" target="_blank">Linkedin</a>
                 </p>
             </div>
-            <div class="formation">
-                <h3>Dévellopeur Web et Web Mobile - TP niveau V</h3>
-                <span>Ecole O'clock - Juin à Novembre 2023</span>
-                <p>Formation intensive de 6 mois au format télé-présentiel. J'ai passé et obtenu mon diplôme en décembre 2023. </p>
-                <p id="linkedin-link">
+            <div class="card" class="formation">
+                <h3>développeur web web mobile</h3>
+                <div class="formation-data">
+                    <span>Ecole O'clock - Titre Pro de niveau V</span>
+                    <span>De Juin à Novembre 2023</span>
+                </div>
+                <p>Formation intensive de 6 mois au format télé-présentiel. J'ai passé et obtenu mon diplôme en décembre 2023.</p>
+                <p class="social-link">
                 Retrouvez la description complète de la formation sur la page de mon profil 
                     <a href="http://www.linkedin.com/in/nicolas-van-hoove" target="_blank">Linkedin</a>
                 </p>
             </div>   
         </section>
 
-        <!-- SECTION EXPERIENCE -->
-        <section id="section-experience" class="hidden">
-            <h1>Expériences</h1>
-            <div class="experience">
-                <h3>Développement de ce site web</h3>
-                <span>Juin 2024</span>
-                <div class="technical-data">
-                    <p>
-                        <span>Langages utilisés</span> : HTML / CSS / JavaScript
-                    </p>
-                    <p>
-                        <span>Architecture utilisée</span> : Single Page Application
-                    </p>
+        <!-- CV - EXPERIENCE - PAGE -->
+        <section id="cv-experience-page" class="hidden">
+            <h2>expériences</h2>
+            <div class="card" class="experience">
+                <h3>Site Web Personnel</h3>
+                <div class="experience-data">
+                    <span>Indépendant - Juin 2024</span>
                 </div>
-                <p class="github-link">
+                <ul class="technical-data">
+                    <li> 
+                        <strong>Langages</strong>
+                        : HTML /CSS / JS
+                    </li>
+                    <li> 
+                        <strong>Architecture</strong>
+                        : Single Page Application
+                    </li>
+                </ul>
+                <p class="social-link">
                     Retrouvez le code complet sur mon
                         <a href="https://github.com/NicolasVanHoove" target="_blank">Github</a>
                 </p>
             </div>
-            <div class="experience">
+            <div class="card" class="experience">
                 <h3>Projet de fin de formation</h3>
-                <span>Ecole O'clock - Novembre 2023</span>
-                <div class="technical-data">
-                    <p>
-                        <span>Langages utilisés</span> : HTML / CSS / PHP / SQL / JS 
-                    </p>
-                    <p>
-                        <span>Framework utilisés</span> : React pour la partie front-end et Symfony pour le back-end 
-                    </p>
-                    <p>
-                        <span>Architecture utilisée</span> : Model View Controller
-                    </p>
+                <div class="experience-data">
+                    <span>Ecole O'clock - Novembre 2023</span>
                 </div>
-                <p>
-                    Réalisation d'une application web en équipe de 5 et en autonomie, de sa conception, jusqu'au déploiement d'un MVP en méthodologie Agile.
-                    J'ai travaillé sur le développement de la partie back-end de l'application. Conception complète d'une API REST et d'un back-office.
+                <ul class="technical-data">
+                    <li> 
+                        <strong>Langages</strong>
+                        : HTML / CSS / PHP / SQL / JS
+                    </li>
+                    <li> 
+                        <strong>Framework</strong>
+                        : Symfony (back-end) / REACT (front-end)
+                    </li>
+                    <li> 
+                        <strong>Architecture</strong>
+                        : Model View Controller
+                    </li>
+                </ul>
+                <p class="social-link">
+                    Retrouvez le code complet sur mon
+                        <a href="https://github.com/NicolasVanHoove" target="_blank">Github</a>
                 </p>
-                <p class="github-link">
-                Retrouvez le code complet sur mon
-                    <a href="https://github.com/NicolasVanHoove" target="_blank">Github</a>
-                </p>
-            </div> 
+            </div>      
         </section>
 
-        <!-- PAGE - PORTFOLIO -->
-        <section id="section-portfolio" class="hidden">
-            <h1>PORTFOLIO</h1>
-            <div class="projet">
+        <!-- PORTFOLIO - PAGE -->
+        <section id="portfolio-page" class="hidden">
+            <h2>portfolio</h2>
+            <div class="card" class="projet">
                 <h3>Le Pokédex</h3>
-                <img src="assets/img/portfolio-pokedex_home.PNG" alt="capture d'écran de la page d'accueil du projet présenté">
+                <img class="projet-illustration" src="assets/img/portfolio-pokedex_home.PNG" alt="capture d'écran de la page d'accueil du projet présenté">
                 <ul class="technical-data">
                     <li> 
                         <strong>Langages</strong>
@@ -181,10 +196,11 @@
                     Ce projet à été réalisé après deux mois de formation à l'école O'clock. C'était un exercice de révision dont le but était de mettre en place une architecture Model View Controller en partant de zéro. 
                     L'ensemble des données affichées sur ce site sont stockées dans une Base De Données relationnelle. 
                 </p>
-                <p class="github-link">
+                <p class="social-link">
                     Retrouvez le code complet sur mon
                         <a href="https://github.com/NicolasVanHoove" target="_blank">Github</a>
-                </p>    
+                </p> 
+            </div>
         </section>
 
     </main>
@@ -206,8 +222,8 @@
             </ul>
         </div>        
     </footer>
+<!-- SCRIPT JS -->
 <script src="js/menu-burger.js"></script>
-<script src="js/switch-page.js"></script>
-<script src="js/switch-section-cv.js"></script>
+<script src="js/display-manager.js"></script>
 </body>
 </html>
