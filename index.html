@@ -19,9 +19,12 @@
 <body>
     <header>
         <div id="banner">
-            <div id="title">
-                <span id="big-title">Nicolas</span>
-                <span id="subtitle">Van Hoove</span>
+            <div id="logo">
+                <img src="assets/img/logo.jpg" alt="photo de nicolas van hoove" id="logo-illustration">
+                <div id="title">
+                    <span id="big-title">Nicolas</span>
+                    <span id="subtitle">Van Hoove</span>
+                </div>
             </div>
             <i class="bi bi-list" id="burger-button"></i>
         </div>
@@ -38,10 +41,22 @@
         <!-- HOMEPAGE -->
 
         <section id="home-page">
-            <h2>développeur web</h2>
             <div class="card">
-            <!-- <img src="assets/img/logo.jpg" alt="photo de nicolas van hoove" id="logo"> -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis quidem accusamus rem voluptatibus odio quod vero alias, inventore fuga eos ex ratione odit earum eveniet pariatur dignissimos natus. Sit voluptate assumenda rem ratione reiciendis autem? Animi quae laudantium voluptatum quasi enim quibusdam reiciendis officia, pariatur qui repellat soluta earum!</p>
+                <h2>développeur web full-stack</h2>
+                <div id="activities">
+                    <div class="activity">
+                        <i class="bi bi-pc-display"></i>
+                        <span>Sites Web</span>
+                    </div>
+                    <div class="activity">
+                        <i class="bi bi-database"></i>
+                        <span>API</span>
+                    </div>
+                    <div class="activity">
+                        <i class="bi bi-phone"></i>
+                        <span>Applications</span>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -202,6 +217,27 @@
                 <p class="resume-project">
                     Ce projet à été réalisé après deux mois de formation à l'école O'clock. C'était un exercice de révision dont le but était de mettre en place une architecture Model View Controller en partant de zéro. 
                     L'ensemble des données affichées sur ce site sont stockées dans une Base De Données relationnelle. 
+                </p>
+                <p class="social-link">
+                    Retrouvez le code complet sur mon
+                        <a href="https://github.com/NicolasVanHoove" target="_blank">Github</a>
+                </p> 
+            </div>
+            <div class="card" class="projet">
+                <h3>Projet météo</h3>
+                <img class="projet-illustration" src="assets/img/portfolio-meteo.png" alt="capture d'écran de la page d'accueil du projet présenté" id="projet-meteo-illustration">
+                <ul class="technical-data">
+                    <li> 
+                        <strong>Langages</strong>
+                        : HTML /CSS / JavaScript
+                    </li>
+                    <li> 
+                        <strong>API</strong>
+                        : OpenWeatherMap
+                    </li>
+                </ul>
+                <p class="resume-project">
+                    Ce projet à été réalisé dans le cadre d'un test technique effectué pour intégrer la formation Concepteur Développeur d'Applications. Le principe consitait à développer une fonctionnalité permettant aux société de bus d'afficher la météo sur leurs écrans.   Les consignes était de se connecter à une API pour récupérer les données météo. La configuration de la ville souhaitée doit se faire par un fichier de configuration JSON. De plus, l'application met à jour les données météos, toutes les heures,  automatiquement. 
                 </p>
                 <p class="social-link">
                     Retrouvez le code complet sur mon

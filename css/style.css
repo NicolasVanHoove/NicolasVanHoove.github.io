@@ -30,7 +30,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 1.5rem;
+    padding: 1rem;
+}
+
+#logo {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+#logo-illustration {
+    width: 75px;
+    height: 85px;
+    margin-right: .75rem;
+    border-radius: 45%;
+    border: 3px solid goldenrod;
 }
 
 #title {
@@ -43,6 +57,7 @@ header {
     width: fit-content;
     font-weight: 800;
     font-size: 2rem;
+    margin-bottom: inherit;
 }
 
 #subtitle {
@@ -89,6 +104,7 @@ header {
 /****************/
 
 main {
+    height : 100%;
     overflow-y: scroll;
     align-content: center;
     margin-bottom: 1rem;
@@ -174,12 +190,41 @@ span {
 /* HOMEPAGE */
 /************/
 
-#logo {
-    width: 125px;
-    height: 125px;
-    margin-bottom: 1rem;
-    border-radius: 50%;
-    border: 3px solid goldenrod;
+#home-page h2 {
+    width: fit-content;
+    display: block;
+    font-size: 1.2rem;
+    margin: 0 auto 1rem auto;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(47, 54, 64, 1);
+    padding: 1rem 0;
+    margin-bottom: .75rem;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+
+.activity span {
+    width: 35%;
+    position: relative;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.activity i {
+    color: goldenrod;
+    font-size: 1.5rem;
+    margin-right: .5rem; 
 }
 
 /************/
@@ -261,3 +306,10 @@ span {
     width: 100%;
     height: 250px;
 }
+
+#projet-meteo-illustration {
+    width: 65%;
+    display: block;
+    margin: 0 auto;   
+}
+
