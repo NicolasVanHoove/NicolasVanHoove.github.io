@@ -313,3 +313,179 @@ span {
     margin: 0 auto;   
 }
 
+/**************/
+/* RESPONSIVE */
+/**************/
+
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    #banner {
+        width: fit-content;
+    }
+    
+    #burger-button {
+        display: none;
+    }
+    
+    #navbar {
+        display: contents;
+    }
+
+    #navlinks {
+        align-self: center;
+        border: 0px solid white;
+    }
+
+    .navlink {
+        margin: 0 1rem;
+    }
+
+    #home-page .card {
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    #home-page h2 {
+        font-size: 2rem;
+    }
+
+    .activity span {
+        width: 15%;
+        font-size: 1.5rem; 
+    }
+
+    .activity i {
+        font-size: 2rem; 
+        margin-right: 1rem;
+    }
+
+    #cv-navbar {
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    .cv-navlink a {
+        font-size: 1.5rem;
+    }
+
+    .cv-download-link {
+        font-size: 1.5rem;
+    }
+
+    #competence {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    #hardskills {
+        width: 35%;
+        display: block;
+        padding: 2rem;
+    }
+
+    #hardskills ul {
+        height: 85%;
+        align-content: center;
+    }
+
+    #hardskills li {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #technologie {
+        width: 40%;
+        display: block;
+        padding: 2rem;
+    }
+
+    #technologie li {
+        font-size: 1.5rem;
+    }
+
+    #formations {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .formation {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        padding: 2rem;
+        border: 2px solid white;
+    }
+
+    #experiences {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .experience {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        padding: 2rem;
+        border: 2px solid white;
+    }
+
+    .experience span {
+        font-size: 1.2rem;
+    }
+
+    #projets {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .projet {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        padding: 2rem;
+        border: 2px solid white;
+    }
+
+    .projet li {
+        font-size: 1.5rem;
+    }
+
+
+
+    .projet-illustration {
+        height: 400px;
+    }
+
+    #projet-meteo-illustration {
+        margin-bottom: 1rem;
+    }
+
+    .social-link {
+        width: 100%;
+    }
+}
