@@ -41,10 +41,10 @@ header {
 
 #logo-illustration {
     width: 75px;
-    height: 85px;
+    height: 100px;
     margin-right: .75rem;
     border-radius: 45%;
-    border: 3px solid goldenrod;
+    border: 2px solid goldenrod;
 }
 
 #title {
@@ -121,7 +121,7 @@ h2 {
     text-transform: uppercase;
     margin: 0 auto;
     padding-bottom: 1rem;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid goldenrod;
 }
 
 h3 {
@@ -139,14 +139,14 @@ h3 {
     border-bottom: 2px solid goldenrod;
 }
 
-#technologie ul {
+#competence ul {
     margin-top: 1.5rem;
 }
 
 p {
-    font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
     margin: 1rem auto;
 }
 
@@ -164,6 +164,7 @@ span {
     background-color: rgba(47, 54, 64, .9);
     margin: 1rem;
     padding: 1rem;
+    /* align-content: center; */
 }
 
 .card li {
@@ -203,39 +204,16 @@ span {
 #home-page h2 {
     width: fit-content;
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 0 auto 1rem auto;
 }
 
-#activities {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.activity {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(47, 54, 64, 1);
-    padding: 1rem 0;
-    margin-bottom: .75rem;
-    border: 2px solid goldenrod;
-    border-radius: 5px;
-}
-
-.activity span {
-    width: 35%;
-    position: relative;
+#home-page img {
+    width: 100%;
+    height: 10rem;
     font-size: 1.2rem;
-    margin-bottom: 0;
 }
 
-.activity i {
-    color: goldenrod;
-    font-size: 1.5rem;
-    margin-right: .5rem; 
-}
 
 /************/
 /**** CV ****/
@@ -248,7 +226,7 @@ span {
 }
 
 #cv-navlinks {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .cv-navlink {
@@ -294,12 +272,18 @@ span {
 .cv-download-link  a {
     color: white;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .cv-download-link  a:hover {
     color: goldenrod;
     font-weight: bold;
     transition: .5s;
+}
+
+.cv-download-link  i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
 }
 
 /* FORMATION */
@@ -339,6 +323,11 @@ span {
 /*************/
 /* PORTFOLIO */
 /*************/
+
+.projet h3 {
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 1rem;
+}
 
 .projet-illustration {
     width: 100%;
