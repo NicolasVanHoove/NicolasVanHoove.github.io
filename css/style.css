@@ -29,7 +29,7 @@ header {
 #banner {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-content: center; 
     padding: 1rem;
 }
 
@@ -40,8 +40,8 @@ header {
 }
 
 #logo-illustration {
-    width: 75px;
-    height: 100px;
+    width: 55px;
+    height: 70px;
     margin-right: .75rem;
     border-radius: 45%;
     border: 2px solid goldenrod;
@@ -57,13 +57,14 @@ header {
     width: fit-content;
     font-weight: 800;
     font-size: 2rem;
-    margin-bottom: inherit;
+    margin-bottom: 0;
 }
 
 #subtitle {
     width: fit-content;
     font-weight: 500;
     font-size: 2rem;
+    margin-bottom: 0;
 }
 
 /* NAVBAR */
@@ -71,6 +72,7 @@ header {
 #burger-button {
     font-size: 3rem;
     font-weight: 800;
+    align-self: center;
 }
 
 #navbar {
